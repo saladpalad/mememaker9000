@@ -69,9 +69,6 @@ export const Meme = () =>{
         }
     }, [memeIndex, memes])
 
-
-
-
     return(
         memes.length ? 
         <div className={styles.container}>
